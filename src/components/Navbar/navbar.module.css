@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+.name{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.links{
+    font-size: 16px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.button{
+    margin-left: 10px;
+}
+.links button{
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid black;
+    display: block;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 50px;
+}

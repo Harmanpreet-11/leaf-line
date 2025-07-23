@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.textContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.textContainer h1{
+    font-size: 58px;
+    font-weight: bolder;
+}
+
+.textContainer p{
+     width: 80%;
+    text-align: justify;
+    font-size: 22px;
+}
+.button{
+    display: flex;
+    padding-top: 20px;
+}
+.button button{
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.imgContainer{
+    padding: 20px;
+    object-fit: contain;
+}
+
+.image{
+    border-radius: 30px;
+}

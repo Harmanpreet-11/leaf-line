@@ -1,0 +1,10 @@
+.container {
+  width: 100vw;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
