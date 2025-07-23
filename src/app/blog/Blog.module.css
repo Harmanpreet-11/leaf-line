@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 60px;
+    gap: 50px;
+}
+.blogPost{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    text-align: justify;
+}
+.textContainer h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.textContainer p{
+    font-size: 20px;
+}
+
+.readButton button{
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+}

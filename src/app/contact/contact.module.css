@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 180px;
+}
+
+.imgContainer {
+    object-fit: contain;
+}
+
+.contactImage {
+    border: 1px solid black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 450px;
+}
+
+.form input,
+.form textarea {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+.sendButton {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.form button {
+    padding:10px 203px;
+    font-size: 18px;
+    background-color: rgb(221, 219, 219);
+    color: black;
+    font-weight:500;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
