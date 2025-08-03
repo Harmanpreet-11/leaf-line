@@ -11,7 +11,7 @@ const page = () => {
           <h1> What would you like to read today ?</h1>
         </div>
         <div className={styles.category}>
-          <h3 className={styles.categoryTitle}> Top Categories, you would like to start from ─</h3>
+          <h3 className={styles.categoryTitle}> Top Categories, you can start from ─</h3>
           <div className={styles.categoryButtons}>
             <span>All</span>
             <button>Fiction</button>

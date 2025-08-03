@@ -22,11 +22,6 @@ const Navbar = () => {
                 >Bookstore</Link>
 
                 <Link 
-                    href="/read" 
-                    className={pathname === '/read' ? styles.active : ''}
-                >Read</Link>
-
-                <Link 
                     href="/contact" 
                     className={pathname === '/contact' ? styles.active : ''}
                 >Contacts</Link>
